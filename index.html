@@ -1,51 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Define a codificação de caracteres para suportar acentuação em espanhol/português -->
   <meta charset="UTF-8">
-  
-  <!-- Configura a visualização responsiva para celulares e computadores -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Congregação Espanhola - Taboão da Serra</title>
-
+  <title>`Congregação Espanhola - Taboão da Serra`</title>
   <style>
-    /* 
-      Reset de CSS:
-      Elimina as margens e barras de rolagem duplas no navegador principal.
-    */
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden; /* Oculta barras de rolagem externas */
-      background-color: #f4f6f9;
-    }
-
-    /* 
-      Estilização do iFrame:
-      Faz a janela do Apps Script ocupar 100% da altura e largura da tela.
-    */
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none; /* Remove a borda padrão do quadro */
-      display: block;
-    }
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background-color: #f4f6f9; }
+    iframe { width: 100%; height: 100%; border: none; display: block; }
   </style>
 </head>
 <body>
-
-  <!-- 
-    iFrame (Janela Embutida):
-    O atributo 'src' contém o link direto da sua aplicação Web do Google Apps Script (/exec).
-  -->
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbxlAlC1oBB5FT_eZN2Y8APaHA8maHXIIxPkWn-TDgdtTUED5pFuC5ZWeW9Ei4UKeb2H/exec" 
-    allow="geolocation; microphone; camera"
-    title="Congregação Espanhola">
-  </iframe>
-
+  <!-- Certifique-se de que o link abaixo é o seu link /exec -->
+  <iframe src="https://script.google.com/macros/s/AKfycbxlAlC1oBB5FT_eZN2Y8APaHA8maHXIIxPkWn-TDgdtTUED5pFuC5ZWeW9Ei4UKeb2H/exec" allow="geolocation; microphone; camera"></iframe>
 </body>
 </html>
