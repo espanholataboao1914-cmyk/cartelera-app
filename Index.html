@@ -5,12 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Congregação Espanhola - Taboão da Serra</title>
   <style>
-    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background-color: #f4f6f9; }
-    iframe { width: 100%; height: 100%; border: none; display: block; }
+    /* Estilos CSS para fazer a aplicação ocupar 100% da tela sem rolagens duplas */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #f4f6f9;
+    }
+
+    /* O marco (iframe) ocupa todo o espaço do navegador e remove as bordas */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
   </style>
 </head>
 <body>
-  <!-- Certifique-se de que o link abaixo é o seu link /exec -->
-  <iframe src="https://script.google.com/macros/s/AKfycbxI_AIC1oBB5FT_eZN2Y8APaHA8maHXIlxPkWn-TDgdTTUED5pFuC5ZWeW9Ei4UKeb2H/exec" allow="geolocation; microphone; camera"></iframe>
+
+  <!-- iFrame que carrega o seu projeto do Apps Script -->
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbxI_AIC1oBB5FT_eZN2Y8APaHA8maHXIlxPkWn-TDgdTTUED5pFuC5ZWeW9Ei4UKeb2H/exec" 
+    allow="geolocation; microphone; camera"
+    title="Congregação Espanhola">
+  </iframe>
+
 </body>
 </html>
